@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Vũ Thị Minh Khuê (Em Bé) ❤️</title>
+    <meta name="description" content="Trang web quà tặng sinh nhật dành riêng cho Vũ Thị Minh Khuê - Em Bé ngọt ngào nhất thế giới!">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Dynamic Particle Canvas (Floating Hearts & Stars) -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- YouTube Player Hidden (Background Music Engine) -->
+    <div id="yt-player-hidden" style="position:fixed;top:-10px;left:-10px;width:1px;height:1px;opacity:0;pointer-events:none;z-index:-1;overflow:hidden;"></div>
+
+    <!-- Entrance Overlay Modal -->
+    <div id="entrance-overlay" class="entrance-overlay">
+        <div class="entrance-card">
+            <div class="avatar-preview">
+                <img src="assets/images/khue_5.jpg" alt="Vũ Thị Minh Khuê (Em Bé)">
+            </div>
+            <h1>Gửi Bé Bún (Minh Khuê) ❤️</h1>
+            <p>Từ anh Bi gửi tới em bé tròn 20 tuổi với tất cả tình yêu thương...</p>
+            <button id="btn-open-gift" class="btn-open-gift">
+                Mở Quà Sinh Nhật 🎁✨
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating Romantic Music Player -->
+    <div id="music-player-widget" class="music-player-widget">
+        <div class="music-disc">🎶</div>
+        <div class="music-info">
+            <div class="music-title">Mơ</div>
+            <div class="music-artist">Vũ Cát Tường</div>
+        </div>
+        <button id="btn-music-toggle" class="btn-music-toggle" aria-label="Bật/Tắt nhạc">▶</button>
+    </div>
+
+    <!-- Main Web Container -->
+    <div class="app-container">
+
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <h1 class="hero-title">Happy Birthday!</h1>
+            <div class="hero-subtitle">Chúc mừng sinh nhật <strong>Vũ Thị Minh Khuê (Bé Bún)</strong></div>
+            <div class="nickname-badge">✨ Bé Bún Tròn 20 Tuổi (04/09/2006) ✨</div>
+
+            <!-- Countdown Timer Container -->
+            <div class="countdown-container">
+                <div class="countdown-card">
+                    <div id="cd-days" class="countdown-number">00</div>
+                    <div class="countdown-label">Ngày</div>
+                </div>
+                <div class="countdown-card">
+                    <div id="cd-hours" class="countdown-number">00</div>
+                    <div class="countdown-label">Giờ</div>
+                </div>
+                <div class="countdown-card">
+                    <div id="cd-mins" class="countdown-number">00</div>
+                    <div class="countdown-label">Phút</div>
+                </div>
+                <div class="countdown-card">
+                    <div id="cd-secs" class="countdown-number">00</div>
+                    <div class="countdown-label">Giây</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Polaroid Photo Gallery -->
+        <section id="gallery-section">
+            <div class="section-header">
+                <div class="section-subtitle">Kỷ Niệm Rực Rỡ</div>
+                <h2 class="section-title">Góc Nhỏ Của Bé Bún 📸</h2>
+            </div>
+            <div id="gallery-grid" class="gallery-grid">
+                <!-- Dynamically generated Polaroid cards -->
+            </div>
+        </section>
+
+        <!-- Typewriter Love Letter Section -->
+        <section id="letter-section">
+            <div class="section-header">
+                <div class="section-subtitle">Thư Từ Bi Gửi Bé Bún</div>
+                <h2 class="section-title">Bức Thư Nhắn Gửi 💌</h2>
+            </div>
+            <div class="letter-container">
+                <div id="letter-content" class="letter-content">
+                    <!-- Typewriter content loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Birthday Cake & Blow Candles Section -->
+        <section id="cake-section">
+            <div class="cake-section-card">
+                <div class="section-header" style="margin-bottom: 1.5rem;">
+                    <div class="section-subtitle">Gửi Điều Ước Tới Các Vì Sao</div>
+                    <h2 class="section-title">Bánh Sinh Nhật 🎂</h2>
+                </div>
+                <div id="cake-status" class="cake-instructions">
+                    👉 Bấm vào bánh sinh nhật để thổi nến và gửi điều ước nhé Bé Bún! 👈
+                </div>
+
+                <div id="cake-wrapper" class="cake-wrapper">
+                    <div class="candles-row">
+                        <div class="candle"><div class="flame"></div></div>
+                        <div class="candle"><div class="flame"></div></div>
+                        <div class="candle"><div class="flame"></div></div>
+                    </div>
+                    <div class="cake-layer layer-top">
+                        <div class="icing"></div>
+                    </div>
+                    <div class="cake-layer layer-bottom">
+                        <div class="icing"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reasons Why I Love You Grid -->
+        <section id="reasons-section">
+            <div class="section-header">
+                <div class="section-subtitle">Điều Kỳ Diệu</div>
+                <h2 class="section-title">Lý Do Bi Si Mê Bé Bún 💖</h2>
+            </div>
+            <div id="reasons-grid" class="reasons-grid">
+                <!-- Dynamically rendered reason cards -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Được thiết kế từ tất cả tình yêu thương của <span>Bi (Đào Đức Anh / Đào Đức Huy)</span> dành cho <span>Bé Bún (Vũ Thị Minh Khuê)</span> ❤️</p>
+            <p style="margin-top: 5px; font-size: 0.8rem; opacity: 0.7;">Giống như giai điệu "Mơ" - Giấc mơ ngọt ngào nhất bên em!</p>
+        </footer>
+
+    </div>
+
+    <!-- Application Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/cake.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
