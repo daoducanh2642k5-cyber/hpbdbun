@@ -11,32 +11,32 @@ const CONFIG = {
     },
     photos: [
         {
-            url: "assets/images/khue_1.jpg",
+            url: "./khue_1.jpg",
             title: "Zoee ✨",
             desc: "em nhớ anh quá"
         },
         {
-            url: "assets/images/khue_2.jpg",
+            url: "./khue_2.jpg",
             title: "Jiyeon 🖤",
             desc: "nào anh về Việt Nam với em z :((("
         },
         {
-            url: "assets/images/khue_3.jpg",
+            url: "./khue_3.jpg",
             title: "Bún 🍜",
             desc: "Em ăn gì cũng được"
         },
         {
-            url: "assets/images/khue_4.jpg",
+            url: "./khue_4.jpg",
             title: "Minh Khuê 🌹",
             desc: "Em ghét kiểu tóc dựng này"
         },
         {
-            url: "assets/images/khue_5.jpg",
+            url: "./khue_5.jpg",
             title: "Bà tổ tone hồng 🎀",
             desc: "Gem với em"
         },
         {
-            url: "assets/images/khue_6.png",
+            url: "./khue_6.png",
             title: "Vợ Bi 💍",
             desc: "Đồ Bi thối"
         }
@@ -56,8 +56,8 @@ Người gửi: Bi của em`,
         { title: "Bún Cá Siêu Ngon 🍜", desc: "Món bún cá em nấu trước đợt anh đi là món anh thích nhất, nấu ăn ngon số 1!" },
         { title: "Nhan Sắc Hoàn Hảo 🌹", desc: "Anh quen em ban đầu vì nhan sắc mà :)))) Xinh đẹp không có điểm chê." },
         { title: "Mạnh Mẽ & Quyết Đoán 💪", desc: "Ấn tượng ngay từ lần đầu nói chuyện, vừa cá tính lại vừa hồn nhiên vô tư." },
-        { title: "Đáng Yêu Nũng Nịu 🎀", desc: "Dù đôi lúc bất cẩn mít ướt nhưng lúc nào cũng cưng nhất trên đời!" },
-        { title: "Tròn 20 Tuổi Rực Rỡ 🎂", desc: "Cảm ơn bố mẹ em đã tạo ra một Bún iu tuyệt vời đến bên đời anh." },
+        { title: "Đáng Yêu Vãi 🎀", desc: "Dù đôi lúc bất cẩn mít ướt nhưng lúc nào cũng cưng nhất trên đời!" },
+        { title: "Tròn 20 Tuổi 🎂", desc: "Cảm ơn bố mẹ em đã tạo ra một Bún iu tuyệt vời đến bên đời anh." },
         { title: "Bé Bún Của Bi 💖", desc: "Sang tuổi mới luôn học giỏi, gặp nhiều may mắn và yêu anh Bi nhiều hơn nhá!" }
     ]
 };
